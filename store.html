@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css/all.min.css">
+    <title>Shopping Cart !</title>
+   
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div id="navbar">
+                <a href="#" id="navbrand">Purchase</a>
+                <ul id="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="info.html">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="showcase">
+       <div class="container">
+        <h1>Purchase your favourite items in a lunch price !</h1>
+        <input type="search" class="searchInput" placeholder="search for your favourite item ">
+       </div>
+    </section>
+
+
+        <!-- store  -->
+        <section id="store">
+            <div class="container">
+                <div id="donutSection">
+                    <h1>Donuts</h1>
+                    <ul id="items">
+                           <div class="content" id="content">
+                                <div class="img">
+                                    <img class="shop-img" src="./images/DONUT.jpg" alt="">
+                                    <div class="info">
+                                        <p class="name">Donut 1</p>
+                                        <p class="price">4.19$</p>
+                                    </div>
+                                </div>
+                                <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                           </div>
+
+                        <div class="content" id="content">
+                            <div class="img">
+                                <img class="shop-img" src="./images/donut2.jpg" alt="">
+                                <div class="info">
+                                    <p class="name">Donut 2</p>
+                                    <p class="price">4.19$</p>
+                                </div>
+                            </div>
+                            <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                        </div>
+
+                        <div class="content" id="content">
+                            <div class="img">
+                                <img class="shop-img" src="./images/donut3.jpg" alt="">
+                                <div class="info">
+                                    <p class="name">Donut 3</p>
+                                    <p class="price">4.19$</p>
+                                </div>
+                            </div>
+                            <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                        </div>
+
+                       <div class="content" id="content">
+                        <div class="img">
+                            <img class="shop-img" src="./images/donut4.jpg" alt="">
+                            <div class="info">
+                                <p class="name">Price</p>
+                                <p class="price">4.19$</p>
+                            </div>
+                        </div>
+                        <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                       </div>
+                    </ul>
+                </div>
+            </div>
+                <!-- devices to sell -->
+                <div id="deviceSection">
+                    <div class="container">
+                        <h1>Devices</h1>
+                        <ul id="items">
+                               <div class="content" id="content">
+                                    <div class="img">
+                                        <img class="shop-img" src="./images/pexels-pixabay-265658.jpg" alt="">
+                                        <div class="info">
+                                            <p class="name">Samsung Mobile</p>
+                                            <p class="price">200.19$</p>
+                                        </div>
+                                    </div>
+                                    <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                               </div>
+    
+                              <div class="content" id="content">
+                                <div class="img">
+                                    <img class="shop-img" src="./images/pexels-pixabay-4158.jpg" alt="">
+                                    <div class="info">
+                                        <p class="name">tablet</p>
+                                        <p class="price">400.19$</p>
+                                    </div>
+                                </div>
+                                <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                              </div>
+    
+                          <div class="content" id="content">
+                            <div class="img">
+                                <img class="shop-img" src="./images/sebastian-bednarek-oqAxrie32l8-unsplash.jpg" alt="">
+                                <div class="info">
+                                    <p class="name">Iphone 11 pro</p>
+                                    <p class="price">100.19$</p>
+                                </div>
+                            </div>
+                            <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                          </div>
+    
+                           <div class="content" id="content">
+                            <div class="img">
+                                <img class="shop-img" src="./images/pexels-pixabay-265658.jpg" alt="">
+                                <div class="info">
+                                    <p class="name">Nokia Pro</p>
+                                    <p class="price">300.19$</p>
+                                </div>
+                            </div>
+                            <button id="purchaseBtn" class="btn btn-success">Add to cart</button>
+                           </div>
+                        </ul>
+                    </div>
+                    </div>
+        </section>
+
+
+        <!-- cart section -->
+
+        <section id="cart" class="cart">
+            <div class="jumbotron">
+                <h1>Cart </h1>
+                <ul id="cartTitles">
+                    <li>Item</li>
+                    <li>Item price </li>
+                    <li>Item quantity </li>
+                </ul>
+                    <div class="cart-items-container">
+                    </div>
+                <h4 class="totalText">Total :<span class="totalPrice"> $0</span></h4>
+
+                <div class="clearfix"></div>
+                <div class="purchaseBtn">
+                    <button class="btn btn-info" id="purchaseButton">Purchase</button>
+                </div>
+           </div>
+        </section>
+
+    <script src="./js/script.js" async></script>
+</body>
+</html>
